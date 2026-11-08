@@ -32,3 +32,29 @@ This project simulates a bank queue using Python and SimPy. It compares two queu
 ## Technologies
 - Python
 - SimPy
+## How to Run the Simulation
+
+### Requirements
+- Python 3
+- SimPy library
+
+### Install SimPy
+Open a terminal and run:
+
+```bash
+pip install simpy
+```
+
+### Run the simulation
+1. Download or clone this GitHub repository.
+2. Open a terminal in the project folder.
+3. Run the following command:
+
+```bash
+python bank_q.py
+```
+
+### Note
+The current `bank_q.py` file runs the M/M/2 simulation with two employees.
+
+The final results for both M/M/1 and M/M/2 are available in `Bank_q_simulation_results.txt`.
