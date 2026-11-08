@@ -1,0 +1,26 @@
+Bank Queue Simulation – Final Results
+
+Number of experiments: 30
+
+M/M/1 – One Employee
+
+* Average waiting time: 24.57 minutes
+* Average queue length: 3.26 customers
+* Server utilization: 80.30%
+* Throughput: 7.96 customers/hour
+
+M/M/2 – Two Employees
+
+* Average waiting time: 1.15 minutes
+* Average queue length: 0.15 customers
+* Server utilization: 39.82% per employee
+* Throughput: 7.92 customers/hour
+
+Simulation parameters:
+
+* Arrival rate: 8 customers/hour
+* Service rate: 10 customers/hour per employee
+* Simulation time: 10,000 minutes
+* Warm-up period: 1,000 minutes
+* Measurement period: 9,000 minutes
+* Independent experiments: 30
